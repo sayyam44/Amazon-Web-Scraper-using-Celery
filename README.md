@@ -1,6 +1,5 @@
 # Amazon Web Scraper Using Celery
-This project demonstrates how to schedule web scrapping tasks using Celery, Selenium, Django and BeautifulSoup to track Amazon product price fluctuations. It leverages Celery for 
-scheduling background tasks, Selenium for scraping, and Django for efficient data storage.
+This project demonstrates how to schedule web scrapping tasks using Celery to track Amazon product price fluctuations. It leverages Celery for scheduling background tasks, Selenium and BeautifulSoup for web scraping, and Django for efficient data storage.
 
 ## What is Celery ?
 Celery is a distributed task queue that allows you to offload, manage, and execute tasks asynchronously outside of your main application.
