@@ -1,5 +1,5 @@
 # Amazon Web Scraper Using Celery
-This project demonstrates how to build an Amazon web scraper using Django, Celery, Selenium, and Bright Data to track Amazon product price fluctuations. It leverages Celery for 
+This project demonstrates how to schedule web scrapping tasks using Celery, Selenium, Django and BeautifulSoup to track Amazon product price fluctuations. It leverages Celery for 
 scheduling background tasks, Selenium for scraping, and Django for efficient data storage.
 
 ## What is Celery ?
