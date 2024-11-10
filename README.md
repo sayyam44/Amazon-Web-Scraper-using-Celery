@@ -21,7 +21,6 @@ While both functionalities are part of Celery, they are typically addressed sepa
 ## Features
 - **Django & Celery Integration**: Background tasks and scheduling for scraping.
 - **Selenium Automation**: Automates browser actions and scrapes data from Amazon.
-- **Bright Data (formerly Luminati)**: Advanced proxy scraping techniques to handle Captchas and IP bans.
 - **Data Parsing**: Extract relevant product details (like price) using BeautifulSoup4.
 - **Django Models**: Efficiently store scraped data in structured models.
 - **Scheduled Scraping**: Automate and schedule scraping tasks through the Django admin using Celery.
