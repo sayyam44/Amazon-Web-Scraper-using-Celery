@@ -25,3 +25,7 @@ While both functionalities are part of Celery, they are typically addressed sepa
 - **Django Models**: Efficiently store scraped data in structured models.
 - **Scheduled Scraping**: Automate and schedule scraping tasks through the Django admin using Celery.
 
+## Steps to Set Up and Run the Project
+1. **Clone the repository**:
+   ```bash
+   git clone https://github.com/sayyam44/Amazon-Web-Scraper-using-Celery.git```
