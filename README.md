@@ -4,7 +4,7 @@ This project demonstrates how to schedule web scrapping tasks using Celery to tr
 ## What is Celery ?
 Celery is a distributed task queue that allows you to offload, manage, and execute tasks asynchronously outside of your main application.
 
-## why Redis or RabbitMQ ?
+## Why Redis or RabbitMQ ?
 Celery requires a message broker to receive tasks and send results to the backend. Redis and RabbitMQ are commonly used message brokers in Celery setups.
 
 ## Why Use Celery?
