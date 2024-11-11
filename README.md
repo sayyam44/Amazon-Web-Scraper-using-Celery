@@ -56,3 +56,18 @@ In separate terminals, run the following commands:
 ```
 ### 6. Add a New Periodic Task in Django Admin
 As soon as you add a new periodic task in the Django admin panel, you will see the schedule change reflected in the Celery Beat terminal and hence data being saved and updated into the Django models on the basis of the defined time of the Celery event .
+
+## Below are some Screenshots from the project:
+
+## List of all the periodic tasks being set for celery to schedule web scraping task and their details:
+![Django Admin(Periodic Tasks) - 1](https://github.com/user-attachments/assets/a0ac7721-392d-44e0-b563-de4499004cfd)
+
+## Details of the product being scrapped on Django Admin:
+![Django Admin-One of the Product Scraped event - 2](https://github.com/user-attachments/assets/d0ef9c2a-2096-4c4e-a458-84ccbe52254d)
+
+## List of few Product Scraped events being created by celery at the backend:
+![Django Admin - Product Scraped events created - 3](https://github.com/user-attachments/assets/de9624c1-6027-4d25-bd5f-a7c1cf6a824b)
+
+Event Scheduler i.e. Celery beat running in terminal running scrapping tasks- 4
+![Event Scheduler i e  Celery beat running in terminal scrapping and hence saing the data in the Django admin - 4](https://github.com/user-attachments/assets/b26a6621-9455-48c5-ad25-1a122965ff1b)
+
