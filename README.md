@@ -68,6 +68,5 @@ As soon as you add a new periodic task in the Django admin panel, you will see t
 ## List of few Product Scraped events being created by celery at the backend:
 ![Django Admin - Product Scraped events created - 3](https://github.com/user-attachments/assets/de9624c1-6027-4d25-bd5f-a7c1cf6a824b)
 
-Event Scheduler i.e. Celery beat running in terminal running scrapping tasks- 4
-![Event Scheduler i e  Celery beat running in terminal scrapping and hence saing the data in the Django admin - 4](https://github.com/user-attachments/assets/b26a6621-9455-48c5-ad25-1a122965ff1b)
-
+## Event Scheduler i.e. Celery beat running in terminal running scrapping tasks
+![5](https://github.com/user-attachments/assets/7acb8579-6276-495d-b967-9fbb4711a6c9)
