@@ -70,3 +70,8 @@ As soon as you add a new periodic task in the Django admin panel, you will see t
 
 ## Event Scheduler i.e. Celery beat running in terminal running scrapping tasks
 ![5](https://github.com/user-attachments/assets/7acb8579-6276-495d-b967-9fbb4711a6c9)
+
+## Reference - 
+https://realpython.com/asynchronous-tasks-with-django-and-celery/#python-celery-basics
+
+Thanks!
