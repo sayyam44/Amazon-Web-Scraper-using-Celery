@@ -26,6 +26,33 @@ While both functionalities are part of Celery, they are typically addressed sepa
 - **Scheduled Scraping**: Automate and schedule scraping tasks through the Django admin using Celery.
 
 ## Steps to Set Up and Run the Project
-1. **Clone the repository**:
+### 1. Clone the repository :
    ```bash
-   git clone https://github.com/sayyam44/Amazon-Web-Scraper-using-Celery.git```
+   git clone https://github.com/sayyam44/Amazon-Web-Scraper-using-Celery.git
+   ```
+   
+### 2.Install required packages: Navigate to the project directory and install the dependencies:
+```bash
+   pip install -r requirements.txt
+```
+
+### 3. Run a Local Redis Instance via Docker Compose
+If you’re using Redis as the message broker, start a local Redis instance with Docker Compose:
+```bash
+   docker compose -f compose.yaml up -d
+```
+### 4.Run the server using:
+```bash
+   python manage.py runserver
+```
+
+### 5. Start the Celery Worker and Beat
+In separate terminals, run the following commands:
+```bash
+   celery -A Celery_web_scrapping2 worker --pool=solo -l info
+```
+```bash
+   celery -A Celery_web_scrapping2 beat --loglevel=info
+```
+### 6. Add a New Periodic Task in Django Admin
+As soon as you add a new periodic task in the Django admin panel, you will see the schedule change reflected in the Celery Beat terminal.
