@@ -14,8 +14,8 @@ There are two primary reasons developers turn to Celery:
 2) To schedule tasks to run at specific times or on a recurring basis.
    
 While both functionalities are part of Celery, they are typically addressed separately:
--->Celery workers are independent processes that execute tasks outside the main service.
--->Celery Beat is a scheduler that handles when tasks should run, including periodic task execution.
+### Celery workers are independent processes that execute tasks outside the main service.
+### Celery Beat is a scheduler that handles when tasks should run, including periodic task execution.
 
 
 ## Features
