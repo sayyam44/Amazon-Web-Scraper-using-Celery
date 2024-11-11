@@ -55,4 +55,4 @@ In separate terminals, run the following commands:
    celery -A Celery_web_scrapping2 beat --loglevel=info
 ```
 ### 6. Add a New Periodic Task in Django Admin
-As soon as you add a new periodic task in the Django admin panel, you will see the schedule change reflected in the Celery Beat terminal.
+As soon as you add a new periodic task in the Django admin panel, you will see the schedule change reflected in the Celery Beat terminal and hence data being saved and updated into the Django models on the basis of the defined time of the Celery event .
