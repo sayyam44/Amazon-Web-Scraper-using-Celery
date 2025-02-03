@@ -1,5 +1,5 @@
 # Asynchronous Amazon Web Scraper
-- Developed a web scraping system using Celery, Selenium, and BrightData, enabling automated data collection from Amazon product pages while bypassing Captchas with BrightData’s proxy services.
+- This is a web scraping system using Celery, Selenium, and BrightData, enabling automated data collection from Amazon product pages while bypassing Captchas with BrightData’s proxy services.
 - Utilized Django Admin to allow easy addition of products by entering their ASIN number and URL, automating the process of scraping and storing product data in the database.
 - Implemented Celery Workers, Celery Beat, and Redis for task scheduling and management, ensuring efficient execution of periodic scraping tasks and real-time updates to the product data.
 - Integrated a system where changes in product prices are automatically reflected in the product table upon each scrape, providing up-to-date pricing information with minimal manual intervention.
