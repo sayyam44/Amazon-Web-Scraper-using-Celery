@@ -1,4 +1,4 @@
-# Amazon Web Scraper Using Celery
+# Asynchronous Amazon Web Scraper
 This project demonstrates how to schedule web scrapping tasks using Celery to track Amazon product price fluctuations. It leverages Celery for scheduling background tasks, Selenium and BeautifulSoup for web scraping, and Django for efficient data storage.
 
 ## What is Celery ?
@@ -19,7 +19,7 @@ While both functionalities are part of Celery, they are typically addressed sepa
 
 
 ## Features
-- **Django & Celery Integration**: Background tasks and scheduling for scraping.
+- **Django, Celery and Redis Integration**: Background tasks and scheduling for scraping.
 - **Selenium Automation**: Automates browser actions and scrapes data from Amazon.
 - **Data Parsing**: Extract relevant product details (like price) using BeautifulSoup4.
 - **Django Models**: Efficiently store scraped data in structured models.
